@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90A3E180223978CF0072922D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A3E17F223978CF0072922D /* AppDelegate.swift */; };
+		90A3E182223978CF0072922D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A3E181223978CF0072922D /* ViewController.swift */; };
+		90A3E185223978CF0072922D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A3E183223978CF0072922D /* Main.storyboard */; };
+		90A3E187223978D00072922D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A3E186223978D00072922D /* Assets.xcassets */; };
+		90A3E18A223978D00072922D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A3E188223978D00072922D /* LaunchScreen.storyboard */; };
+		90A3E195223978D10072922D /* CiceksepetiDeliveryMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A3E194223978D10072922D /* CiceksepetiDeliveryMapTests.swift */; };
+		90A3E1A0223978D10072922D /* CiceksepetiDeliveryMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A3E19F223978D10072922D /* CiceksepetiDeliveryMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90A3E191223978D10072922D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90A3E174223978CF0072922D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90A3E17B223978CF0072922D;
+			remoteInfo = CiceksepetiDeliveryMap;
+		};
+		90A3E19C223978D10072922D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90A3E174223978CF0072922D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90A3E17B223978CF0072922D;
+			remoteInfo = CiceksepetiDeliveryMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90A3E17C223978CF0072922D /* CiceksepetiDeliveryMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiceksepetiDeliveryMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A3E17F223978CF0072922D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90A3E181223978CF0072922D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90A3E184223978CF0072922D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90A3E186223978D00072922D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90A3E189223978D00072922D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90A3E18B223978D10072922D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A3E190223978D10072922D /* CiceksepetiDeliveryMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiceksepetiDeliveryMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A3E194223978D10072922D /* CiceksepetiDeliveryMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiceksepetiDeliveryMapTests.swift; sourceTree = "<group>"; };
+		90A3E196223978D10072922D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A3E19B223978D10072922D /* CiceksepetiDeliveryMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiceksepetiDeliveryMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A3E19F223978D10072922D /* CiceksepetiDeliveryMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiceksepetiDeliveryMapUITests.swift; sourceTree = "<group>"; };
+		90A3E1A1223978D10072922D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90A3E179223978CF0072922D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A3E18D223978D10072922D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A3E198223978D10072922D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90A3E173223978CF0072922D = {
+			isa = PBXGroup;
+			children = (
+				90A3E17E223978CF0072922D /* CiceksepetiDeliveryMap */,
+				90A3E193223978D10072922D /* CiceksepetiDeliveryMapTests */,
+				90A3E19E223978D10072922D /* CiceksepetiDeliveryMapUITests */,
+				90A3E17D223978CF0072922D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90A3E17D223978CF0072922D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90A3E17C223978CF0072922D /* CiceksepetiDeliveryMap.app */,
+				90A3E190223978D10072922D /* CiceksepetiDeliveryMapTests.xctest */,
+				90A3E19B223978D10072922D /* CiceksepetiDeliveryMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90A3E17E223978CF0072922D /* CiceksepetiDeliveryMap */ = {
+			isa = PBXGroup;
+			children = (
+				90A3E17F223978CF0072922D /* AppDelegate.swift */,
+				90A3E181223978CF0072922D /* ViewController.swift */,
+				90A3E183223978CF0072922D /* Main.storyboard */,
+				90A3E186223978D00072922D /* Assets.xcassets */,
+				90A3E188223978D00072922D /* LaunchScreen.storyboard */,
+				90A3E18B223978D10072922D /* Info.plist */,
+			);
+			path = CiceksepetiDeliveryMap;
+			sourceTree = "<group>";
+		};
+		90A3E193223978D10072922D /* CiceksepetiDeliveryMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				90A3E194223978D10072922D /* CiceksepetiDeliveryMapTests.swift */,
+				90A3E196223978D10072922D /* Info.plist */,
+			);
+			path = CiceksepetiDeliveryMapTests;
+			sourceTree = "<group>";
+		};
+		90A3E19E223978D10072922D /* CiceksepetiDeliveryMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90A3E19F223978D10072922D /* CiceksepetiDeliveryMapUITests.swift */,
+				90A3E1A1223978D10072922D /* Info.plist */,
+			);
+			path = CiceksepetiDeliveryMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90A3E17B223978CF0072922D /* CiceksepetiDeliveryMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A3E1A4223978D10072922D /* Build configuration list for PBXNativeTarget "CiceksepetiDeliveryMap" */;
+			buildPhases = (
+				90A3E178223978CF0072922D /* Sources */,
+				90A3E179223978CF0072922D /* Frameworks */,
+				90A3E17A223978CF0072922D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CiceksepetiDeliveryMap;
+			productName = CiceksepetiDeliveryMap;
+			productReference = 90A3E17C223978CF0072922D /* CiceksepetiDeliveryMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90A3E18F223978D10072922D /* CiceksepetiDeliveryMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A3E1A7223978D10072922D /* Build configuration list for PBXNativeTarget "CiceksepetiDeliveryMapTests" */;
+			buildPhases = (
+				90A3E18C223978D10072922D /* Sources */,
+				90A3E18D223978D10072922D /* Frameworks */,
+				90A3E18E223978D10072922D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90A3E192223978D10072922D /* PBXTargetDependency */,
+			);
+			name = CiceksepetiDeliveryMapTests;
+			productName = CiceksepetiDeliveryMapTests;
+			productReference = 90A3E190223978D10072922D /* CiceksepetiDeliveryMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90A3E19A223978D10072922D /* CiceksepetiDeliveryMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A3E1AA223978D10072922D /* Build configuration list for PBXNativeTarget "CiceksepetiDeliveryMapUITests" */;
+			buildPhases = (
+				90A3E197223978D10072922D /* Sources */,
+				90A3E198223978D10072922D /* Frameworks */,
+				90A3E199223978D10072922D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90A3E19D223978D10072922D /* PBXTargetDependency */,
+			);
+			name = CiceksepetiDeliveryMapUITests;
+			productName = CiceksepetiDeliveryMapUITests;
+			productReference = 90A3E19B223978D10072922D /* CiceksepetiDeliveryMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90A3E174223978CF0072922D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yusuf Kamil AK";
+				TargetAttributes = {
+					90A3E17B223978CF0072922D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					90A3E18F223978D10072922D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 90A3E17B223978CF0072922D;
+					};
+					90A3E19A223978D10072922D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 90A3E17B223978CF0072922D;
+					};
+				};
+			};
+			buildConfigurationList = 90A3E177223978CF0072922D /* Build configuration list for PBXProject "CiceksepetiDeliveryMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90A3E173223978CF0072922D;
+			productRefGroup = 90A3E17D223978CF0072922D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90A3E17B223978CF0072922D /* CiceksepetiDeliveryMap */,
+				90A3E18F223978D10072922D /* CiceksepetiDeliveryMapTests */,
+				90A3E19A223978D10072922D /* CiceksepetiDeliveryMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90A3E17A223978CF0072922D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A3E18A223978D00072922D /* LaunchScreen.storyboard in Resources */,
+				90A3E187223978D00072922D /* Assets.xcassets in Resources */,
+				90A3E185223978CF0072922D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A3E18E223978D10072922D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A3E199223978D10072922D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90A3E178223978CF0072922D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A3E182223978CF0072922D /* ViewController.swift in Sources */,
+				90A3E180223978CF0072922D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A3E18C223978D10072922D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A3E195223978D10072922D /* CiceksepetiDeliveryMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A3E197223978D10072922D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A3E1A0223978D10072922D /* CiceksepetiDeliveryMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90A3E192223978D10072922D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90A3E17B223978CF0072922D /* CiceksepetiDeliveryMap */;
+			targetProxy = 90A3E191223978D10072922D /* PBXContainerItemProxy */;
+		};
+		90A3E19D223978D10072922D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90A3E17B223978CF0072922D /* CiceksepetiDeliveryMap */;
+			targetProxy = 90A3E19C223978D10072922D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90A3E183223978CF0072922D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90A3E184223978CF0072922D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90A3E188223978D00072922D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90A3E189223978D00072922D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90A3E1A2223978D10072922D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90A3E1A3223978D10072922D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90A3E1A5223978D10072922D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BFH8GJL85;
+				INFOPLIST_FILE = CiceksepetiDeliveryMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yusufkamilak.CiceksepetiDeliveryMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90A3E1A6223978D10072922D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BFH8GJL85;
+				INFOPLIST_FILE = CiceksepetiDeliveryMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yusufkamilak.CiceksepetiDeliveryMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90A3E1A8223978D10072922D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BFH8GJL85;
+				INFOPLIST_FILE = CiceksepetiDeliveryMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yusufkamilak.CiceksepetiDeliveryMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiceksepetiDeliveryMap.app/CiceksepetiDeliveryMap";
+			};
+			name = Debug;
+		};
+		90A3E1A9223978D10072922D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BFH8GJL85;
+				INFOPLIST_FILE = CiceksepetiDeliveryMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yusufkamilak.CiceksepetiDeliveryMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiceksepetiDeliveryMap.app/CiceksepetiDeliveryMap";
+			};
+			name = Release;
+		};
+		90A3E1AB223978D10072922D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BFH8GJL85;
+				INFOPLIST_FILE = CiceksepetiDeliveryMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yusufkamilak.CiceksepetiDeliveryMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CiceksepetiDeliveryMap;
+			};
+			name = Debug;
+		};
+		90A3E1AC223978D10072922D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BFH8GJL85;
+				INFOPLIST_FILE = CiceksepetiDeliveryMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yusufkamilak.CiceksepetiDeliveryMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CiceksepetiDeliveryMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90A3E177223978CF0072922D /* Build configuration list for PBXProject "CiceksepetiDeliveryMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A3E1A2223978D10072922D /* Debug */,
+				90A3E1A3223978D10072922D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A3E1A4223978D10072922D /* Build configuration list for PBXNativeTarget "CiceksepetiDeliveryMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A3E1A5223978D10072922D /* Debug */,
+				90A3E1A6223978D10072922D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A3E1A7223978D10072922D /* Build configuration list for PBXNativeTarget "CiceksepetiDeliveryMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A3E1A8223978D10072922D /* Debug */,
+				90A3E1A9223978D10072922D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A3E1AA223978D10072922D /* Build configuration list for PBXNativeTarget "CiceksepetiDeliveryMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A3E1AB223978D10072922D /* Debug */,
+				90A3E1AC223978D10072922D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90A3E174223978CF0072922D /* Project object */;
+}
